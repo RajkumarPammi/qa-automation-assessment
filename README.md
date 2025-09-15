@@ -30,8 +30,6 @@ QA-AUTOMATION-ASSESSMENT/
 │   ├── test_conftest.py 
 │   └── test_user_flow.py 
 │
-├── utils/                  # Utility functions/helpers (if used)
-│
 ├── screenshots/            # Screenshots for proof
 │   ├── step1.png 
 │   ├── step2.png 
@@ -82,5 +80,6 @@ Design Pattern: Page Object Model (POM)
 Reports: pytest-html
 
 Version Control: Git + GitHub
+
 
 

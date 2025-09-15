@@ -1,6 +1,6 @@
-﻿# qa-automation-assessment
+﻿# QA-automation-assessment #
 
-📌 Objective
+# 📌 Objective
 
 Automate the following user flows on Magento Test Website:
 
@@ -12,7 +12,8 @@ Sign Out – Logout successfully.
 
 Change Password – Verified via Forgot Password (since Magento does not show a direct Change Password on login).
 
-📂 Repository Structure
+
+# 📂 Repository Structure
 
 QA-AUTOMATION-ASSESSMENT/
 │
@@ -41,7 +42,8 @@ QA-AUTOMATION-ASSESSMENT/
 ├── README.md              # Project documentation
 └── .gitignore             # Git ignored files
 
-⚙️ Setup Instructions
+# ⚙️ Setup Instructions
+
 1️⃣ Clone Repository
 git clone https://github.com/RajkumarPammi/qa-automation-assessment.git
 cd qa-automation-assessment
@@ -57,7 +59,7 @@ pip install -r requirements.txt
 4️⃣ Run Tests
 pytest -v tests/test_user_flow.py --html=report.html --self-contained-html
 
-✅ Deliverables
+# ✅ Deliverables
 
 Test Cases – Documented in Excel (test_cases.xlsx or similar).
 
@@ -69,7 +71,7 @@ Reports – Generated using pytest-html.
 
 Proof of Execution – Screenshots in /screenshots/ and report.html.
 
-🛠️ Tools & Stack
+# 🛠️ Tools & Stack
 
 Language: Python 3.11
 
@@ -80,4 +82,5 @@ Design Pattern: Page Object Model (POM)
 Reports: pytest-html
 
 Version Control: Git + GitHub
+
 

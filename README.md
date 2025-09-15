@@ -17,28 +17,28 @@ Change Password – Verified via Forgot Password (since Magento does not show a 
 
 QA-AUTOMATION-ASSESSMENT/
 │
-├── pages/                 # Page Object Model (POM) classes
-│   ├── account_page.py              
-│   ├── base_page.py 
-│   ├── change_password_page.py  
-│   ├── dashboard_page.py 
-│   ├── login_page.py 
-│   └── signup_page.py 
+├── pages/ # Page Object Model (POM) classes
+│ ├── account_page.py
+│ ├── base_page.py
+│ ├── change_password_page.py
+│ ├── dashboard_page.py
+│ ├── login_page.py
+│ └── signup_page.py
 │
-├── tests/                  # Test cases
-│   ├── conftest.py 
-│   ├── test_conftest.py 
-│   └── test_user_flow.py 
+├── tests/ # Test cases
+│ ├── conftest.py
+│ ├── test_conftest.py
+│ └── test_user_flow.py
 │
-├── screenshots/            # Screenshots for proof
-│   ├── step1.png 
-│   ├── step2.png 
-│   └── error.png 
+├── screenshots/ # Screenshots for proof
+│ ├── step1.png
+│ ├── step2.png
+│ └── error.png
 │
-├── report.html            # Test execution report (pytest-html)
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-└── .gitignore             # Git ignored files
+├── report.html # Test execution report (pytest-html)
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .gitignore # Git ignored files
 
 # ⚙️ Setup Instructions
 
@@ -80,6 +80,7 @@ Design Pattern: Page Object Model (POM)
 Reports: pytest-html
 
 Version Control: Git + GitHub
+
 
 
 

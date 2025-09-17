@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 
 @pytest.fixture(scope="session")
 def base_url():
-    return "https://dev.4excelerate.net/auth/login"
+    return "Your website name"
 
 @pytest.fixture
 def driver():
@@ -18,3 +18,4 @@ def driver():
     driver = webdriver.Chrome(service=service, options=options)
     yield driver
     driver.quit()
+
